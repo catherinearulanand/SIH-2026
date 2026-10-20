@@ -1,0 +1,7209 @@
+{
+  "cutoff": "2026-05-30",
+  "seed": 26251,
+  "truth_days": 30,
+  "start_date": "2026-05-31",
+  "end_date": "2026-06-29",
+  "demand": [
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-05-31",
+      "requested": 37.7,
+      "issued": 0.0,
+      "unmet": 37.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-01",
+      "requested": 29.2,
+      "issued": 0.0,
+      "unmet": 29.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-02",
+      "requested": 21.7,
+      "issued": 0.0,
+      "unmet": 21.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-03",
+      "requested": 21.1,
+      "issued": 0.0,
+      "unmet": 21.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-04",
+      "requested": 27.4,
+      "issued": 27.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-05",
+      "requested": 38.8,
+      "issued": 38.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-06",
+      "requested": 43.4,
+      "issued": 43.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-07",
+      "requested": 45.3,
+      "issued": 34.4,
+      "unmet": 10.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-08",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-09",
+      "requested": 27.4,
+      "issued": 0.0,
+      "unmet": 27.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-10",
+      "requested": 25.9,
+      "issued": 0.0,
+      "unmet": 25.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-11",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-12",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-13",
+      "requested": 49.3,
+      "issued": 0.0,
+      "unmet": 49.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-14",
+      "requested": 45.6,
+      "issued": 0.0,
+      "unmet": 45.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-15",
+      "requested": 23.3,
+      "issued": 0.0,
+      "unmet": 23.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-17",
+      "requested": 20.1,
+      "issued": 0.0,
+      "unmet": 20.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-18",
+      "requested": 28.0,
+      "issued": 28.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-19",
+      "requested": 43.0,
+      "issued": 43.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-20",
+      "requested": 42.8,
+      "issued": 42.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-21",
+      "requested": 39.9,
+      "issued": 30.2,
+      "unmet": 9.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-22",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-23",
+      "requested": 30.1,
+      "issued": 0.0,
+      "unmet": 30.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-24",
+      "requested": 20.4,
+      "issued": 0.0,
+      "unmet": 20.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-25",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-26",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-27",
+      "requested": 41.8,
+      "issued": 0.0,
+      "unmet": 41.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-28",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-29",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-05-31",
+      "requested": 31.5,
+      "issued": 0.0,
+      "unmet": 31.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-01",
+      "requested": 21.4,
+      "issued": 0.0,
+      "unmet": 21.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-02",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-03",
+      "requested": 28.7,
+      "issued": 0.0,
+      "unmet": 28.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-04",
+      "requested": 18.7,
+      "issued": 18.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-05",
+      "requested": 20.2,
+      "issued": 20.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-06",
+      "requested": 28.2,
+      "issued": 28.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-07",
+      "requested": 31.7,
+      "issued": 31.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-08",
+      "requested": 22.5,
+      "issued": 22.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-09",
+      "requested": null,
+      "issued": 22.7,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-10",
+      "requested": 28.5,
+      "issued": 0.0,
+      "unmet": 28.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-11",
+      "requested": 18.7,
+      "issued": 0.0,
+      "unmet": 18.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-12",
+      "requested": 25.5,
+      "issued": 0.0,
+      "unmet": 25.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-13",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-14",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-15",
+      "requested": 19.0,
+      "issued": 0.0,
+      "unmet": 19.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-16",
+      "requested": 24.3,
+      "issued": 0.0,
+      "unmet": 24.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-17",
+      "requested": 27.8,
+      "issued": 0.0,
+      "unmet": 27.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-18",
+      "requested": 28.8,
+      "issued": 28.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-19",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-20",
+      "requested": 34.3,
+      "issued": 34.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-21",
+      "requested": 26.7,
+      "issued": 26.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-22",
+      "requested": 17.0,
+      "issued": 17.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-23",
+      "requested": 17.4,
+      "issued": 17.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-24",
+      "requested": 28.2,
+      "issued": 19.8,
+      "unmet": 8.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-25",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-26",
+      "requested": 18.1,
+      "issued": 0.0,
+      "unmet": 18.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-27",
+      "requested": 26.4,
+      "issued": 0.0,
+      "unmet": 26.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-28",
+      "requested": 33.6,
+      "issued": 0.0,
+      "unmet": 33.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "WATER-20L",
+      "date": "2026-06-29",
+      "requested": 21.2,
+      "issued": 0.0,
+      "unmet": 21.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-05-31",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-01",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-02",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-04",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-05",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-07",
+      "requested": 48.0,
+      "issued": 48.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-08",
+      "requested": 42.0,
+      "issued": 42.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-09",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-12",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-13",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-14",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-15",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-16",
+      "requested": 45.6,
+      "issued": 45.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-17",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-18",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-19",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-20",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-22",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-23",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-24",
+      "requested": 22.8,
+      "issued": 22.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-25",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-26",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-27",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BLANKET",
+      "date": "2026-06-29",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-05-31",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-01",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-02",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-03",
+      "requested": 17.0,
+      "issued": 17.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-04",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-05",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-06",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-07",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-08",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-09",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-10",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-11",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-12",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-13",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-14",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-15",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-16",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-17",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-18",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-19",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-20",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-21",
+      "requested": 17.0,
+      "issued": 17.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-22",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-23",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-24",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-25",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-26",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-27",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-28",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "SOCKS",
+      "date": "2026-06-29",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-05-31",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-01",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-02",
+      "requested": 9.6,
+      "issued": 9.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-04",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-05",
+      "requested": 32.4,
+      "issued": 32.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-07",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-08",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-09",
+      "requested": 26.4,
+      "issued": 26.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-12",
+      "requested": 13.2,
+      "issued": 13.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-13",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-14",
+      "requested": 24.0,
+      "issued": 24.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-15",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-16",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-17",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-18",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-19",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-20",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-22",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-23",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-25",
+      "requested": 31.2,
+      "issued": 31.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-26",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-27",
+      "requested": 16.8,
+      "issued": 16.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-29",
+      "requested": 24.0,
+      "issued": 24.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-05-31",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-01",
+      "requested": null,
+      "issued": 6.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-02",
+      "requested": 16.0,
+      "issued": 0.0,
+      "unmet": 16.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-03",
+      "requested": 18.0,
+      "issued": 0.0,
+      "unmet": 18.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-04",
+      "requested": 17.0,
+      "issued": 17.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-05",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-06",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-07",
+      "requested": 18.0,
+      "issued": 18.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-08",
+      "requested": 23.0,
+      "issued": 23.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-09",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-10",
+      "requested": 19.0,
+      "issued": 19.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-11",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-12",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-13",
+      "requested": null,
+      "issued": 3.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-14",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-15",
+      "requested": 12.0,
+      "issued": 0.0,
+      "unmet": 12.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-16",
+      "requested": 11.0,
+      "issued": 0.0,
+      "unmet": 11.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-17",
+      "requested": 14.0,
+      "issued": 0.0,
+      "unmet": 14.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-18",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-19",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-20",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-21",
+      "requested": 17.0,
+      "issued": 17.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-22",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-23",
+      "requested": 21.0,
+      "issued": 21.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-24",
+      "requested": 19.0,
+      "issued": 19.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-25",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-26",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-27",
+      "requested": 18.0,
+      "issued": 10.0,
+      "unmet": 8.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-28",
+      "requested": 18.0,
+      "issued": 0.0,
+      "unmet": 18.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-A",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-29",
+      "requested": 7.0,
+      "issued": 0.0,
+      "unmet": 7.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-05-31",
+      "requested": 46.8,
+      "issued": 0.0,
+      "unmet": 46.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-01",
+      "requested": 29.7,
+      "issued": 0.0,
+      "unmet": 29.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-02",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-03",
+      "requested": 19.5,
+      "issued": 0.0,
+      "unmet": 19.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-04",
+      "requested": 21.0,
+      "issued": 21.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-05",
+      "requested": 42.1,
+      "issued": 42.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-06",
+      "requested": 38.1,
+      "issued": 38.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-07",
+      "requested": 33.4,
+      "issued": 18.8,
+      "unmet": 14.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-08",
+      "requested": 25.9,
+      "issued": 0.0,
+      "unmet": 25.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-09",
+      "requested": 17.9,
+      "issued": 0.0,
+      "unmet": 17.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-10",
+      "requested": 22.6,
+      "issued": 0.0,
+      "unmet": 22.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-11",
+      "requested": 19.2,
+      "issued": 0.0,
+      "unmet": 19.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-12",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-13",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-14",
+      "requested": 37.5,
+      "issued": 0.0,
+      "unmet": 37.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-15",
+      "requested": 19.2,
+      "issued": 0.0,
+      "unmet": 19.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-17",
+      "requested": 22.8,
+      "issued": 0.0,
+      "unmet": 22.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-18",
+      "requested": 20.1,
+      "issued": 20.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-19",
+      "requested": 33.1,
+      "issued": 33.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-20",
+      "requested": 38.9,
+      "issued": 38.9,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-21",
+      "requested": 39.4,
+      "issued": 27.9,
+      "unmet": 11.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-22",
+      "requested": 24.3,
+      "issued": 0.0,
+      "unmet": 24.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-23",
+      "requested": 14.1,
+      "issued": 0.0,
+      "unmet": 14.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-24",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-25",
+      "requested": 21.4,
+      "issued": 0.0,
+      "unmet": 21.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-26",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-27",
+      "requested": 41.2,
+      "issued": 0.0,
+      "unmet": 41.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-28",
+      "requested": 30.2,
+      "issued": 0.0,
+      "unmet": 30.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-29",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-05-31",
+      "requested": 28.8,
+      "issued": 0.0,
+      "unmet": 28.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-01",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-02",
+      "requested": 15.5,
+      "issued": 0.0,
+      "unmet": 15.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-03",
+      "requested": 25.3,
+      "issued": 0.0,
+      "unmet": 25.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-04",
+      "requested": 19.5,
+      "issued": 19.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-05",
+      "requested": 18.8,
+      "issued": 18.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-06",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-07",
+      "requested": 29.5,
+      "issued": 29.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-08",
+      "requested": 22.8,
+      "issued": 22.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-09",
+      "requested": 18.2,
+      "issued": 18.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-10",
+      "requested": null,
+      "issued": 11.2,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-11",
+      "requested": 11.3,
+      "issued": 0.0,
+      "unmet": 11.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-12",
+      "requested": 15.9,
+      "issued": 0.0,
+      "unmet": 15.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-13",
+      "requested": 32.3,
+      "issued": 0.0,
+      "unmet": 32.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-14",
+      "requested": 26.3,
+      "issued": 0.0,
+      "unmet": 26.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-15",
+      "requested": 13.8,
+      "issued": 0.0,
+      "unmet": 13.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-17",
+      "requested": 26.1,
+      "issued": 0.0,
+      "unmet": 26.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-18",
+      "requested": 16.7,
+      "issued": 16.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-19",
+      "requested": 20.5,
+      "issued": 20.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-20",
+      "requested": 25.5,
+      "issued": 25.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-21",
+      "requested": 26.4,
+      "issued": 26.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-22",
+      "requested": 14.7,
+      "issued": 14.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-23",
+      "requested": 19.3,
+      "issued": 16.2,
+      "unmet": 3.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-24",
+      "requested": 29.3,
+      "issued": 0.0,
+      "unmet": 29.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-25",
+      "requested": 15.4,
+      "issued": 0.0,
+      "unmet": 15.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-26",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-27",
+      "requested": 26.8,
+      "issued": 0.0,
+      "unmet": 26.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-28",
+      "requested": 29.0,
+      "issued": 0.0,
+      "unmet": 29.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "WATER-20L",
+      "date": "2026-06-29",
+      "requested": 17.4,
+      "issued": 0.0,
+      "unmet": 17.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-05-31",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-01",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-02",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-04",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-05",
+      "requested": 34.0,
+      "issued": 34.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-06",
+      "requested": 35.0,
+      "issued": 35.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-07",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-08",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-09",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-12",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-13",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-14",
+      "requested": 37.0,
+      "issued": 37.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-15",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-16",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-17",
+      "requested": 28.0,
+      "issued": 28.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-18",
+      "requested": 24.0,
+      "issued": 24.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-19",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-20",
+      "requested": 35.0,
+      "issued": 35.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-22",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-23",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-25",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-26",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-27",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BLANKET",
+      "date": "2026-06-29",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-05-31",
+      "requested": 3.0,
+      "issued": 3.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-01",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-02",
+      "requested": 3.0,
+      "issued": 3.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-03",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-04",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-05",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-06",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-07",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-08",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-09",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-10",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-11",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-12",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-13",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-14",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-15",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-16",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-17",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-18",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-19",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-20",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-21",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-22",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-23",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-24",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-25",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-26",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-27",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-28",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "SOCKS",
+      "date": "2026-06-29",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-05-31",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-01",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-02",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-04",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-05",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-07",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-08",
+      "requested": 23.0,
+      "issued": 23.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-09",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-12",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-13",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-14",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-15",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-16",
+      "requested": 20.0,
+      "issued": 20.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-17",
+      "requested": 23.0,
+      "issued": 23.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-18",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-19",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-20",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-22",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-23",
+      "requested": 20.0,
+      "issued": 20.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-25",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-26",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-27",
+      "requested": 25.0,
+      "issued": 25.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-29",
+      "requested": 20.0,
+      "issued": 20.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-05-31",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-01",
+      "requested": 14.0,
+      "issued": 0.0,
+      "unmet": 14.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-02",
+      "requested": 14.0,
+      "issued": 0.0,
+      "unmet": 14.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-03",
+      "requested": 23.0,
+      "issued": 0.0,
+      "unmet": 23.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-04",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-05",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-06",
+      "requested": 17.0,
+      "issued": 17.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-07",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-08",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-09",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-10",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-11",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-12",
+      "requested": 12.0,
+      "issued": 6.0,
+      "unmet": 6.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-13",
+      "requested": 13.0,
+      "issued": 0.0,
+      "unmet": 13.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-14",
+      "requested": 15.0,
+      "issued": 0.0,
+      "unmet": 15.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-15",
+      "requested": 14.0,
+      "issued": 0.0,
+      "unmet": 14.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-17",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-18",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-19",
+      "requested": 20.0,
+      "issued": 20.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-20",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-21",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-22",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-23",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-24",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-25",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-26",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-27",
+      "requested": null,
+      "issued": 7.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-28",
+      "requested": 13.0,
+      "issued": 0.0,
+      "unmet": 13.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-B",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-29",
+      "requested": 18.0,
+      "issued": 0.0,
+      "unmet": 18.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-05-31",
+      "requested": 28.4,
+      "issued": 0.0,
+      "unmet": 28.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-01",
+      "requested": 22.5,
+      "issued": 0.0,
+      "unmet": 22.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-02",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-03",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-04",
+      "requested": 27.1,
+      "issued": 27.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-05",
+      "requested": 23.1,
+      "issued": 23.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-06",
+      "requested": 20.0,
+      "issued": 20.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-07",
+      "requested": 25.2,
+      "issued": 25.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-08",
+      "requested": null,
+      "issued": 0.6,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-09",
+      "requested": 19.4,
+      "issued": 0.0,
+      "unmet": 19.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-10",
+      "requested": 12.1,
+      "issued": 0.0,
+      "unmet": 12.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-11",
+      "requested": 14.5,
+      "issued": 0.0,
+      "unmet": 14.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-12",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-13",
+      "requested": 27.7,
+      "issued": 0.0,
+      "unmet": 27.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-14",
+      "requested": 27.1,
+      "issued": 0.0,
+      "unmet": 27.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-15",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-17",
+      "requested": 17.4,
+      "issued": 0.0,
+      "unmet": 17.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-18",
+      "requested": 20.3,
+      "issued": 20.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-19",
+      "requested": 27.1,
+      "issued": 27.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-20",
+      "requested": 29.8,
+      "issued": 29.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-21",
+      "requested": 33.1,
+      "issued": 18.8,
+      "unmet": 14.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-22",
+      "requested": 11.9,
+      "issued": 0.0,
+      "unmet": 11.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-23",
+      "requested": 19.1,
+      "issued": 0.0,
+      "unmet": 19.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-24",
+      "requested": 18.1,
+      "issued": 0.0,
+      "unmet": 18.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-25",
+      "requested": 17.3,
+      "issued": 0.0,
+      "unmet": 17.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-26",
+      "requested": 37.9,
+      "issued": 0.0,
+      "unmet": 37.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-27",
+      "requested": 26.5,
+      "issued": 0.0,
+      "unmet": 26.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-28",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-29",
+      "requested": 21.1,
+      "issued": 0.0,
+      "unmet": 21.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-05-31",
+      "requested": 19.0,
+      "issued": 0.0,
+      "unmet": 19.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-01",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-02",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-03",
+      "requested": 25.6,
+      "issued": 0.0,
+      "unmet": 25.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-04",
+      "requested": 13.2,
+      "issued": 13.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-05",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-06",
+      "requested": 16.6,
+      "issued": 16.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-07",
+      "requested": 22.4,
+      "issued": 22.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-08",
+      "requested": 14.9,
+      "issued": 14.9,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-09",
+      "requested": 20.1,
+      "issued": 18.9,
+      "unmet": 1.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-10",
+      "requested": 18.1,
+      "issued": 0.0,
+      "unmet": 18.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-11",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-12",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-13",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-14",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-15",
+      "requested": 7.8,
+      "issued": 0.0,
+      "unmet": 7.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-16",
+      "requested": 21.7,
+      "issued": 0.0,
+      "unmet": 21.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-17",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-18",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-19",
+      "requested": 15.1,
+      "issued": 15.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-20",
+      "requested": 21.2,
+      "issued": 21.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-21",
+      "requested": 19.5,
+      "issued": 19.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-22",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-23",
+      "requested": 17.9,
+      "issued": 17.9,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-24",
+      "requested": 23.0,
+      "issued": 0.3,
+      "unmet": 22.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-25",
+      "requested": 16.2,
+      "issued": 0.0,
+      "unmet": 16.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-26",
+      "requested": 12.2,
+      "issued": 0.0,
+      "unmet": 12.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-27",
+      "requested": 18.8,
+      "issued": 0.0,
+      "unmet": 18.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-28",
+      "requested": 18.4,
+      "issued": 0.0,
+      "unmet": 18.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "WATER-20L",
+      "date": "2026-06-29",
+      "requested": 10.4,
+      "issued": 0.0,
+      "unmet": 10.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-05-31",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-01",
+      "requested": 24.0,
+      "issued": 24.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-02",
+      "requested": 12.8,
+      "issued": 12.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-04",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-05",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-07",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-08",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-09",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-12",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-13",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-14",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-15",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-16",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-17",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-18",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-19",
+      "requested": 32.8,
+      "issued": 32.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-20",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-22",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-23",
+      "requested": 34.4,
+      "issued": 34.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-25",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-26",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-27",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BLANKET",
+      "date": "2026-06-29",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-05-31",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-01",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-02",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-03",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-04",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-05",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-06",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-07",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-08",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-09",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-10",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-11",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-12",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-13",
+      "requested": 3.0,
+      "issued": 3.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-14",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-15",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-16",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-17",
+      "requested": 3.0,
+      "issued": 3.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-18",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-19",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-20",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-21",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-22",
+      "requested": 3.0,
+      "issued": 3.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-23",
+      "requested": 3.0,
+      "issued": 3.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-24",
+      "requested": 1.0,
+      "issued": 1.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-25",
+      "requested": 10.0,
+      "issued": 10.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-26",
+      "requested": 2.0,
+      "issued": 2.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-27",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-28",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "SOCKS",
+      "date": "2026-06-29",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-05-31",
+      "requested": 16.8,
+      "issued": 16.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-01",
+      "requested": 13.6,
+      "issued": 13.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-02",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-04",
+      "requested": 9.6,
+      "issued": 9.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-05",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-07",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-08",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-09",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-12",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-13",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-14",
+      "requested": 8.8,
+      "issued": 8.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-15",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-16",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-17",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-18",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-19",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-20",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-22",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-23",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-25",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-26",
+      "requested": 20.0,
+      "issued": 20.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-27",
+      "requested": 18.4,
+      "issued": 18.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-29",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-05-31",
+      "requested": 9.0,
+      "issued": 8.0,
+      "unmet": 1.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-01",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-02",
+      "requested": 17.0,
+      "issued": 0.0,
+      "unmet": 17.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-03",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-04",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-05",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-06",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-07",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-08",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-09",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-10",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-11",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-12",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-13",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-14",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-15",
+      "requested": 9.0,
+      "issued": 4.0,
+      "unmet": 5.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-17",
+      "requested": 12.0,
+      "issued": 0.0,
+      "unmet": 12.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-18",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-19",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-20",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-21",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-22",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-23",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-24",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-25",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-26",
+      "requested": 5.0,
+      "issued": 5.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-27",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-28",
+      "requested": 10.0,
+      "issued": 8.0,
+      "unmet": 2.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-C",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-29",
+      "requested": 15.0,
+      "issued": 0.0,
+      "unmet": 15.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-05-31",
+      "requested": 39.4,
+      "issued": 0.0,
+      "unmet": 39.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-01",
+      "requested": 25.3,
+      "issued": 0.0,
+      "unmet": 25.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-02",
+      "requested": 25.8,
+      "issued": 0.0,
+      "unmet": 25.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-03",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-04",
+      "requested": 25.5,
+      "issued": 25.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-05",
+      "requested": 38.6,
+      "issued": 38.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-06",
+      "requested": 43.7,
+      "issued": 43.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-07",
+      "requested": 43.4,
+      "issued": 24.2,
+      "unmet": 19.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-08",
+      "requested": 30.1,
+      "issued": 0.0,
+      "unmet": 30.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-09",
+      "requested": 16.8,
+      "issued": 0.0,
+      "unmet": 16.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-10",
+      "requested": 18.7,
+      "issued": 0.0,
+      "unmet": 18.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-11",
+      "requested": 29.0,
+      "issued": 0.0,
+      "unmet": 29.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-12",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-13",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-14",
+      "requested": 40.1,
+      "issued": 0.0,
+      "unmet": 40.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-15",
+      "requested": 23.3,
+      "issued": 0.0,
+      "unmet": 23.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-16",
+      "requested": 27.1,
+      "issued": 0.0,
+      "unmet": 27.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-17",
+      "requested": 25.3,
+      "issued": 0.0,
+      "unmet": 25.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-18",
+      "requested": 21.2,
+      "issued": 21.2,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-19",
+      "requested": 45.4,
+      "issued": 45.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-20",
+      "requested": 50.9,
+      "issued": 50.9,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-21",
+      "requested": null,
+      "issued": 14.5,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-22",
+      "requested": 23.3,
+      "issued": 0.0,
+      "unmet": 23.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-23",
+      "requested": 22.3,
+      "issued": 0.0,
+      "unmet": 22.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-24",
+      "requested": 28.7,
+      "issued": 0.0,
+      "unmet": 28.7,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-25",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-26",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-27",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-28",
+      "requested": 36.0,
+      "issued": 0.0,
+      "unmet": 36.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "RATION-PACK",
+      "date": "2026-06-29",
+      "requested": 32.8,
+      "issued": 0.0,
+      "unmet": 32.8,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-05-31",
+      "requested": 30.1,
+      "issued": 0.0,
+      "unmet": 30.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-01",
+      "requested": 22.3,
+      "issued": 0.0,
+      "unmet": 22.3,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-02",
+      "requested": 16.1,
+      "issued": 0.0,
+      "unmet": 16.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-03",
+      "requested": 30.4,
+      "issued": 0.0,
+      "unmet": 30.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-04",
+      "requested": 19.3,
+      "issued": 19.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-05",
+      "requested": 23.3,
+      "issued": 23.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-06",
+      "requested": 28.1,
+      "issued": 28.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-07",
+      "requested": 30.1,
+      "issued": 30.1,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-08",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-09",
+      "requested": 20.8,
+      "issued": 15.2,
+      "unmet": 5.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-10",
+      "requested": 26.1,
+      "issued": 0.0,
+      "unmet": 26.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-11",
+      "requested": 19.1,
+      "issued": 0.0,
+      "unmet": 19.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-12",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-13",
+      "requested": 26.4,
+      "issued": 0.0,
+      "unmet": 26.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-14",
+      "requested": 27.2,
+      "issued": 0.0,
+      "unmet": 27.2,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-15",
+      "requested": 19.1,
+      "issued": 0.0,
+      "unmet": 19.1,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-16",
+      "requested": 16.5,
+      "issued": 0.0,
+      "unmet": 16.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-17",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-18",
+      "requested": 14.5,
+      "issued": 14.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-19",
+      "requested": 20.3,
+      "issued": 20.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-20",
+      "requested": 33.7,
+      "issued": 33.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-21",
+      "requested": 29.3,
+      "issued": 29.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-22",
+      "requested": 16.5,
+      "issued": 16.5,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-23",
+      "requested": 24.2,
+      "issued": 17.7,
+      "unmet": 6.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-24",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-25",
+      "requested": 12.6,
+      "issued": 0.0,
+      "unmet": 12.6,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-26",
+      "requested": 24.4,
+      "issued": 0.0,
+      "unmet": 24.4,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-27",
+      "requested": 29.5,
+      "issued": 0.0,
+      "unmet": 29.5,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-28",
+      "requested": 31.9,
+      "issued": 0.0,
+      "unmet": 31.9,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "WATER-20L",
+      "date": "2026-06-29",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-05-31",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-01",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-02",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-04",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-05",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-07",
+      "requested": 20.9,
+      "issued": 20.9,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-08",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-09",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-11",
+      "requested": 31.9,
+      "issued": 31.9,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-12",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-13",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-14",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-15",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-16",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-17",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-18",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-19",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-20",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-22",
+      "requested": 22.0,
+      "issued": 22.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-23",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-25",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-26",
+      "requested": 28.6,
+      "issued": 28.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-27",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BLANKET",
+      "date": "2026-06-29",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-05-31",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-01",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-02",
+      "requested": 4.0,
+      "issued": 4.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-03",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-04",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-05",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-06",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-07",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-08",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-09",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-10",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-11",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-12",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-13",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-14",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-15",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-16",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-17",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-18",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-19",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-20",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-21",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-22",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-23",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-24",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-25",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-26",
+      "requested": 7.0,
+      "issued": 7.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-27",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-28",
+      "requested": 6.0,
+      "issued": 6.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "SOCKS",
+      "date": "2026-06-29",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-05-31",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-01",
+      "requested": 25.3,
+      "issued": 25.3,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-02",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-03",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-04",
+      "requested": 29.7,
+      "issued": 29.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-05",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-06",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-07",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-08",
+      "requested": 19.8,
+      "issued": 19.8,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-09",
+      "requested": 18.7,
+      "issued": 18.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-10",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-11",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-12",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-13",
+      "requested": 18.7,
+      "issued": 18.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-14",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-15",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-16",
+      "requested": 17.6,
+      "issued": 17.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-17",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-18",
+      "requested": 17.6,
+      "issued": 17.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-19",
+      "requested": 26.4,
+      "issued": 26.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-20",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-21",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-22",
+      "requested": 18.7,
+      "issued": 18.7,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-23",
+      "requested": 17.6,
+      "issued": 17.6,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-24",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-25",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-26",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-27",
+      "requested": 15.4,
+      "issued": 15.4,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-28",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "BANDAGE-PACK",
+      "date": "2026-06-29",
+      "requested": 0.0,
+      "issued": 0.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-05-31",
+      "requested": null,
+      "issued": 6.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-01",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-02",
+      "requested": 12.0,
+      "issued": 0.0,
+      "unmet": 12.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-03",
+      "requested": 21.0,
+      "issued": 0.0,
+      "unmet": 21.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-04",
+      "requested": 19.0,
+      "issued": 19.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-05",
+      "requested": 8.0,
+      "issued": 8.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-06",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-07",
+      "requested": 12.0,
+      "issued": 12.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-08",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-09",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-10",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-11",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-12",
+      "requested": 13.0,
+      "issued": 13.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-13",
+      "requested": 14.0,
+      "issued": 14.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-14",
+      "requested": 14.0,
+      "issued": 4.0,
+      "unmet": 10.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-15",
+      "requested": 16.0,
+      "issued": 0.0,
+      "unmet": 16.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-16",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-17",
+      "requested": null,
+      "issued": 0.0,
+      "unmet": null,
+      "missing_flag": true,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-18",
+      "requested": 25.0,
+      "issued": 25.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-19",
+      "requested": 15.0,
+      "issued": 15.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-20",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-21",
+      "requested": 22.0,
+      "issued": 22.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-22",
+      "requested": 9.0,
+      "issued": 9.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-23",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-24",
+      "requested": 11.0,
+      "issued": 11.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-25",
+      "requested": 16.0,
+      "issued": 16.0,
+      "unmet": 0.0,
+      "missing_flag": false,
+      "stockout_flag": false
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-26",
+      "requested": 11.0,
+      "issued": 9.0,
+      "unmet": 2.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-27",
+      "requested": 14.0,
+      "issued": 0.0,
+      "unmet": 14.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-28",
+      "requested": 11.0,
+      "issued": 0.0,
+      "unmet": 11.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    },
+    {
+      "site_id": "FICTIONAL-D",
+      "item_id": "ORS-BOX",
+      "date": "2026-06-29",
+      "requested": 15.0,
+      "issued": 0.0,
+      "unmet": 15.0,
+      "missing_flag": false,
+      "stockout_flag": true
+    }
+  ]
+}

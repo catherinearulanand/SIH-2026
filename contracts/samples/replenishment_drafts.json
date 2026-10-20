@@ -1,0 +1,550 @@
+[
+  {
+    "site": "FICTIONAL-A",
+    "item": "RATION-PACK",
+    "target": 303,
+    "allocatable": 260,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 43,
+    "capacity_free": 359,
+    "capacity_gap": 0,
+    "split": [
+      {
+        "qty": 43,
+        "arrival": "2026-05-31"
+      }
+    ],
+    "shortage_days_projected": 8,
+    "unmet_projected_qty": 265.6,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 600,
+      "projected_physical_on_arrival": 241
+    }
+  },
+  {
+    "site": "FICTIONAL-A",
+    "item": "WATER-20L",
+    "target": 218,
+    "allocatable": 287,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 0,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 4,
+    "unmet_projected_qty": 87.25,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 250,
+      "projected_physical_on_arrival": 263
+    }
+  },
+  {
+    "site": "FICTIONAL-A",
+    "item": "BLANKET",
+    "target": 106,
+    "allocatable": 287,
+    "inbound_in_horizon": 61,
+    "proposed_qty": 0,
+    "capacity_free": 93,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 400,
+      "projected_physical_on_arrival": 307
+    }
+  },
+  {
+    "site": "FICTIONAL-A",
+    "item": "SOCKS",
+    "target": 99,
+    "allocatable": 134,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 851,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 3,
+    "unmet_projected_qty": 28.45,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 1000,
+      "projected_physical_on_arrival": 149
+    }
+  },
+  {
+    "site": "FICTIONAL-A",
+    "item": "BANDAGE-PACK",
+    "target": 104,
+    "allocatable": 173,
+    "inbound_in_horizon": 40,
+    "proposed_qty": 0,
+    "capacity_free": 335,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 500,
+      "projected_physical_on_arrival": 165
+    }
+  },
+  {
+    "site": "FICTIONAL-A",
+    "item": "ORS-BOX",
+    "target": 129,
+    "allocatable": 305,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 284,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 600,
+      "projected_physical_on_arrival": 316
+    }
+  },
+  {
+    "site": "FICTIONAL-B",
+    "item": "RATION-PACK",
+    "target": 260,
+    "allocatable": 358,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 171,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 3,
+    "unmet_projected_qty": 78.5,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 500,
+      "projected_physical_on_arrival": 329
+    }
+  },
+  {
+    "site": "FICTIONAL-B",
+    "item": "WATER-20L",
+    "target": 187,
+    "allocatable": 268,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 0,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 3,
+    "unmet_projected_qty": 51.65,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 200,
+      "projected_physical_on_arrival": 258
+    }
+  },
+  {
+    "site": "FICTIONAL-B",
+    "item": "BLANKET",
+    "target": 95,
+    "allocatable": 206,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 147,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 350,
+      "projected_physical_on_arrival": 203
+    }
+  },
+  {
+    "site": "FICTIONAL-B",
+    "item": "SOCKS",
+    "target": 79,
+    "allocatable": 355,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 437,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 800,
+      "projected_physical_on_arrival": 363
+    }
+  },
+  {
+    "site": "FICTIONAL-B",
+    "item": "BANDAGE-PACK",
+    "target": 78,
+    "allocatable": 112,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 156,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 400,
+      "projected_physical_on_arrival": 244
+    }
+  },
+  {
+    "site": "FICTIONAL-B",
+    "item": "ORS-BOX",
+    "target": 109,
+    "allocatable": 318,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 194,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 500,
+      "projected_physical_on_arrival": 306
+    }
+  },
+  {
+    "site": "FICTIONAL-C",
+    "item": "RATION-PACK",
+    "target": 193,
+    "allocatable": 126,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 67,
+    "capacity_free": 271,
+    "capacity_gap": 0,
+    "split": [
+      {
+        "qty": 67,
+        "arrival": "2026-05-31"
+      }
+    ],
+    "shortage_days_projected": 10,
+    "unmet_projected_qty": 195.6,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 450,
+      "projected_physical_on_arrival": 179
+    }
+  },
+  {
+    "site": "FICTIONAL-C",
+    "item": "WATER-20L",
+    "target": 141,
+    "allocatable": 186,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 9,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 4,
+    "unmet_projected_qty": 51.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 180,
+      "projected_physical_on_arrival": 171
+    }
+  },
+  {
+    "site": "FICTIONAL-C",
+    "item": "BLANKET",
+    "target": 77,
+    "allocatable": 314,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 0,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 300,
+      "projected_physical_on_arrival": 309
+    }
+  },
+  {
+    "site": "FICTIONAL-C",
+    "item": "SOCKS",
+    "target": 48,
+    "allocatable": 288,
+    "inbound_in_horizon": 66,
+    "proposed_qty": 0,
+    "capacity_free": 401,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 700,
+      "projected_physical_on_arrival": 299
+    }
+  },
+  {
+    "site": "FICTIONAL-C",
+    "item": "BANDAGE-PACK",
+    "target": 59,
+    "allocatable": 183,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 169,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 350,
+      "projected_physical_on_arrival": 181
+    }
+  },
+  {
+    "site": "FICTIONAL-C",
+    "item": "ORS-BOX",
+    "target": 96,
+    "allocatable": 187,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 257,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 450,
+      "projected_physical_on_arrival": 193
+    }
+  },
+  {
+    "site": "FICTIONAL-D",
+    "item": "RATION-PACK",
+    "target": 276,
+    "allocatable": 253,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 23,
+    "capacity_free": 328,
+    "capacity_gap": 0,
+    "split": [
+      {
+        "qty": 23,
+        "arrival": "2026-05-31"
+      }
+    ],
+    "shortage_days_projected": 7,
+    "unmet_projected_qty": 194.58,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 550,
+      "projected_physical_on_arrival": 222
+    }
+  },
+  {
+    "site": "FICTIONAL-D",
+    "item": "WATER-20L",
+    "target": 204,
+    "allocatable": 138,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 66,
+    "capacity_free": 105,
+    "capacity_gap": 0,
+    "split": [
+      {
+        "qty": 66,
+        "arrival": "2026-05-31"
+      }
+    ],
+    "shortage_days_projected": 10,
+    "unmet_projected_qty": 214.95,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 220,
+      "projected_physical_on_arrival": 115
+    }
+  },
+  {
+    "site": "FICTIONAL-D",
+    "item": "BLANKET",
+    "target": 127,
+    "allocatable": 179,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 183,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 380,
+      "projected_physical_on_arrival": 197
+    }
+  },
+  {
+    "site": "FICTIONAL-D",
+    "item": "SOCKS",
+    "target": 98,
+    "allocatable": 121,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 789,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 4,
+    "unmet_projected_qty": 42.2,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 900,
+      "projected_physical_on_arrival": 111
+    }
+  },
+  {
+    "site": "FICTIONAL-D",
+    "item": "BANDAGE-PACK",
+    "target": 82,
+    "allocatable": 261,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 191,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 450,
+      "projected_physical_on_arrival": 259
+    }
+  },
+  {
+    "site": "FICTIONAL-D",
+    "item": "ORS-BOX",
+    "target": 126,
+    "allocatable": 271,
+    "inbound_in_horizon": 0,
+    "proposed_qty": 0,
+    "capacity_free": 293,
+    "capacity_gap": 0,
+    "split": [],
+    "shortage_days_projected": 0,
+    "unmet_projected_qty": 0.0,
+    "expiry_waste_projected": 0,
+    "policy_mode": "quantile",
+    "inputs_ref": {
+      "snapshot_id": "SNAP-26251-150",
+      "lead_window_days": 8,
+      "arrival_date": "2026-05-31",
+      "storage_capacity": 550,
+      "projected_physical_on_arrival": 257
+    }
+  }
+]
