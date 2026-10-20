@@ -5,12 +5,13 @@ Supports:
   --locked  Runs ONCE on held-out test truth (days 150-179) and writes out/metrics.json permanently.
 """
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 from pathlib import Path
 import sys
 import numpy as np
+
 
 from setu.contracts import Snapshot
 from setu.eval.metrics import bias, empirical_coverage, mae, pinball_loss, wape
@@ -138,13 +139,27 @@ def run_dev_evaluation():
 
     snap = load_snapshot("SNAP-26251-150")
 
-    # Extract validation slice (days 120-149: 2026-05-01 to 2026-05-30)
-    val_demand: dict[tuple[str, str], list[float]] = {}
+    # Organize validation actuals aligned by date (30 days)
+    val_dates = [
+        (datetime(2026, 5, 1) + timedelta(days=i)).strftime("%Y-%m-%d")
+        for i in range(30)
+    ]
+    val_by_date: dict[tuple[str, str], dict[str, float]] = {}
     for d in snap.demand:
-        if "2026-05-01" <= d.date <= "2026-05-30" and d.requested is not None:
-            val_demand.setdefault((d.site_id, d.item_id), []).append(float(d.requested))
+        if "2026-05-01" <= d.date <= "2026-05-30":
+            if d.requested is not None:
+                val_by_date.setdefault((d.site_id, d.item_id), {})[d.date] = float(d.requested)
+            elif d.issued is not None and d.unmet is not None:
+                val_by_date.setdefault((d.site_id, d.item_id), {})[d.date] = float(d.issued + d.unmet)
 
-    val_dict = {k: np.array(v, dtype=float) for k, v in val_demand.items()}
+    val_dict = {}
+    for site in snap.sites:
+        for item in snap.items:
+            key = (site.site_id, item.item_id)
+            series_dict = val_by_date.get(key, {})
+            arr = np.array([series_dict.get(dt, np.nan) for dt in val_dates], dtype=float)
+            val_dict[key] = arr
+
 
     # Create a training-only snapshot (cutoff 2026-04-30)
     train_snap = snap.model_copy(deep=True)
@@ -198,12 +213,26 @@ def run_locked_evaluation():
     truth_raw = json.loads(TRUTH_PATH.read_text(encoding="utf-8"))
     truth_records = truth_raw["demand"]
 
-    test_dict: dict[tuple[str, str], list[float]] = {}
+    test_dates = [
+        (datetime(2026, 5, 31) + timedelta(days=i)).strftime("%Y-%m-%d")
+        for i in range(30)
+    ]
+    test_by_date: dict[tuple[str, str], dict[str, float]] = {}
     for d in truth_records:
-        if d.get("requested") is not None:
-            test_dict.setdefault((d["site_id"], d["item_id"]), []).append(float(d["requested"]))
+        dt = d.get("date")
+        if dt:
+            if d.get("requested") is not None:
+                test_by_date.setdefault((d["site_id"], d["item_id"]), {})[dt] = float(d["requested"])
+            elif d.get("issued") is not None and d.get("unmet") is not None:
+                test_by_date.setdefault((d["site_id"], d["item_id"]), {})[dt] = float(d["issued"] + d["unmet"])
 
-    test_actuals = {k: np.array(v, dtype=float) for k, v in test_dict.items()}
+    test_actuals = {}
+    for s_id, i_id in test_by_date.keys():
+        key = (s_id, i_id)
+        series_dict = test_by_date.get(key, {})
+        arr = np.array([series_dict.get(dt, np.nan) for dt in test_dates], dtype=float)
+        test_actuals[key] = arr
+
 
     snap = load_snapshot("SNAP-26251-150")
     fc_summary = evaluate_forecast_on_actuals(snap, test_actuals, horizon=30, use_croston=True)
