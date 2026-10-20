@@ -1,0 +1,219 @@
+{
+  "benchmark_label": "synthetic_generator_seed_26251",
+  "timestamp_utc": "2026-10-20T12:25:13.542121+00:00",
+  "supersedes": {
+    "file": "out/metrics.json",
+    "section": "paired_simulation",
+    "see": "out/ERRATA.md"
+  },
+  "build": {
+    "git_commit": "9e7d76dc9b8c5f17bde6620098d8a27f8df30717",
+    "dataset_fingerprint": "9c30c554ae1d408f9de129b0125a9aa92531290dc7eb31cc368a56ca145925b5",
+    "python": "3.12.13",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "networkx": "3.7"
+  },
+  "paired_simulation": {
+    "assumptions": {
+      "horizon_days": 30,
+      "review_days": 7,
+      "series": 24,
+      "forecast_fallback_series": 0,
+      "fixed_rule": "S = k*mean daily demand, s = 0.4*S; matched k = 10.09 days of cover",
+      "demand": "7-day block bootstrap of each series' history; missing days = 0; common random numbers",
+      "supply": "external source unlimited; orders truncated to free storage; replenishment lots long-dated",
+      "start_stock": "usable unexpired batches minus reservations, plus confirmed inbound (both policies)"
+    },
+    "bootstrap": {
+      "n_paths": 20,
+      "forecast_policy": {
+        "fill_rate_pct": 99.21,
+        "unmet_qty": 79.45,
+        "shortage_days": 9.0,
+        "avg_stock": 3127.31,
+        "peak_stock": 5233.37,
+        "expiry_waste": 0.0
+      },
+      "fixed_matched": {
+        "fill_rate_pct": 93.29,
+        "unmet_qty": 674.19,
+        "shortage_days": 40.75,
+        "avg_stock": 3119.68,
+        "peak_stock": 5233.37,
+        "expiry_waste": 0.0
+      },
+      "fixed_6d_unmatched": {
+        "fill_rate_pct": 84.91,
+        "unmet_qty": 1515.82,
+        "shortage_days": 89.7,
+        "avg_stock": 2675.74,
+        "peak_stock": 5233.37,
+        "expiry_waste": 0.0
+      },
+      "paired_forecast_minus_fixed_matched": {
+        "fill_rate_pct": {
+          "mean": 5.92,
+          "ci95": [
+            5.29,
+            6.54
+          ]
+        },
+        "unmet_qty": {
+          "mean": -594.75,
+          "ci95": [
+            -658.94,
+            -530.55
+          ]
+        },
+        "shortage_days": {
+          "mean": -31.75,
+          "ci95": [
+            -34.36,
+            -29.14
+          ]
+        },
+        "avg_stock": {
+          "mean": 7.64,
+          "ci95": [
+            -8.12,
+            23.39
+          ]
+        },
+        "peak_stock": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "expiry_waste": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "actual_holdout": {
+      "forecast_policy": {
+        "fill_rate_pct": 99.93,
+        "unmet_qty": 6.0,
+        "shortage_days": 2.0,
+        "avg_stock": 3409.87,
+        "peak_stock": 5236.5,
+        "expiry_waste": 0.0
+      },
+      "fixed_matched": {
+        "fill_rate_pct": 94.55,
+        "unmet_qty": 455.3,
+        "shortage_days": 29.0,
+        "avg_stock": 3270.07,
+        "peak_stock": 5236.5,
+        "expiry_waste": 0.0
+      },
+      "fixed_6d_unmatched": {
+        "fill_rate_pct": 90.44,
+        "unmet_qty": 798.9,
+        "shortage_days": 56.0,
+        "avg_stock": 2899.93,
+        "peak_stock": 5236.5,
+        "expiry_waste": 0.0
+      },
+      "note": "single realised path; no confidence interval"
+    }
+  },
+  "aggregate_window_coverage": {
+    "n_windows": 37,
+    "window_days_by_site": {
+      "FICTIONAL-A": 8,
+      "FICTIONAL-B": 8,
+      "FICTIONAL-C": 8,
+      "FICTIONAL-D": 8
+    },
+    "p10_coverage": 0.216,
+    "p50_coverage": 0.622,
+    "p90_coverage": 0.865,
+    "mean_pinball_0.9": 4.4,
+    "note": "non-overlapping windows inside the 30 held-out days; small n, read with care"
+  },
+  "forecast_baselines_date_aligned": {
+    "seasonal_naive": {
+      "mean_mae": 5.18,
+      "mean_wape": 0.699
+    },
+    "ewma_alpha_0.2": {
+      "mean_mae": 6.01,
+      "mean_wape": 0.758
+    }
+  },
+  "planner_vs_nearest_source": {
+    "base": {
+      "status": "OPTIMAL",
+      "runtime_s": 0.013,
+      "constraint_violations": [],
+      "milp": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 502721.25
+      },
+      "nearest_source": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 502745.15
+      }
+    },
+    "closed_edge": {
+      "status": "OPTIMAL",
+      "runtime_s": 0.02,
+      "constraint_violations": [],
+      "milp": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 503033.45
+      },
+      "nearest_source": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 503112.65
+      }
+    },
+    "reduced_capacity": {
+      "status": "OPTIMAL",
+      "runtime_s": 0.021,
+      "constraint_violations": [],
+      "milp": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 502721.25
+      },
+      "nearest_source": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 502745.15
+      }
+    },
+    "delayed_arrival": {
+      "status": "OPTIMAL",
+      "runtime_s": 0.02,
+      "constraint_violations": [],
+      "milp": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 502946.65
+      },
+      "nearest_source": {
+        "supply_shortage_qty": 10,
+        "weighted_cost": 502974.65
+      }
+    },
+    "impossible_demand": {
+      "status": "OPTIMAL",
+      "runtime_s": 0.012,
+      "constraint_violations": [],
+      "milp": {
+        "supply_shortage_qty": 1243,
+        "weighted_cost": 62150000.0
+      },
+      "nearest_source": {
+        "supply_shortage_qty": 1243,
+        "weighted_cost": 62150000.0
+      }
+    }
+  },
+  "verification_hash": "3a40505cbad4e4047cfaf5bc43e88d3c1c1a55b3a5fcb86bd7d7884142307e1d"
+}

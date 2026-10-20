@@ -130,6 +130,25 @@ def evaluate_forecast_on_actuals(
     return summary
 
 
+def print_simulation(sim: dict) -> None:
+    print("--------------------------------------------------------------------------------")
+    print(sim["assumptions"]["fixed_rule"])
+    cols = ("fill_rate_pct", "unmet_qty", "shortage_days", "avg_stock", "peak_stock", "expiry_waste")
+    print(f"{'Policy':<20} | " + " | ".join(f"{c:>13}" for c in cols))
+    for name in ("forecast_policy", "fixed_matched", "fixed_6d_unmatched"):
+        row = sim["bootstrap"][name]
+        print(f"{name:<20} | " + " | ".join(f"{row[c]:>13.1f}" for c in cols))
+    d = sim["bootstrap"]["paired_forecast_minus_fixed_matched"]
+    print("Paired forecast - fixed_matched (mean, 95% CI):")
+    for c in ("fill_rate_pct", "unmet_qty", "shortage_days", "avg_stock"):
+        print(f"  {c:<14} {d[c]['mean']:>9.2f}  [{d[c]['ci95'][0]:.2f}, {d[c]['ci95'][1]:.2f}]")
+    if "actual_holdout" in sim:
+        print("Actual held-out path (single realisation):")
+        for name in ("forecast_policy", "fixed_matched"):
+            row = sim["actual_holdout"][name]
+            print(f"  {name:<18} fill {row['fill_rate_pct']:.1f}%  unmet {row['unmet_qty']:.0f}  avg stock {row['avg_stock']:.0f}")
+
+
 def run_dev_evaluation():
     """Run dev evaluation on the validation slice (labeled: tuning score)."""
     print("\n================================================================================")
@@ -167,6 +186,7 @@ def run_dev_evaluation():
     train_snap.demand = [d for d in snap.demand if d.date <= "2026-04-30"]
 
     summary = evaluate_forecast_on_actuals(train_snap, val_dict, horizon=30)
+    summary_cr = evaluate_forecast_on_actuals(train_snap, val_dict, horizon=30, use_croston=True)
 
     print("FORECAST BENCHMARK VS BASELINES (30-day Validation Slice - TUNING SCORE):")
     print("--------------------------------------------------------------------------------")
@@ -175,6 +195,9 @@ def run_dev_evaluation():
     for m, m_data in summary.items():
         if m != "probabilistic":
             print(f"{m:<25} | {m_data['mean_mae']:<8.2f} | {m_data['mean_bias']:<8.2f} | {m_data['mean_wape']:<8.3f}")
+    cr = summary_cr["track2_routed"]
+    print(f"{'track2_routed+croston':<25} | {cr['mean_mae']:<8.2f} | {cr['mean_bias']:<8.2f} | {cr['mean_wape']:<8.3f}")
+    print("(Croston is chosen for a locked run only if it wins here, on validation.)")
 
     print("\nPROBABILISTIC UNCERTAINTY METRICS (Block-Bootstrap Envelope):")
     print("--------------------------------------------------------------------------------")
@@ -184,13 +207,9 @@ def run_dev_evaluation():
     print(f"P90 Empirical Coverage : {prob['p90_empirical_coverage']:.1%} (target ~90%)")
     print(f"P90 Pinball Loss       : {prob['mean_pinball_loss_0.9']:.2f}")
 
-    print("\nPAIRED SIMULATION BENCHMARK (20 seeds, Static (s,S) vs Dynamic Forecast Policy):")
-    print("--------------------------------------------------------------------------------")
-    sim_res = run_paired_simulation(snap, num_seeds=20, horizon_days=30)
-    print(f"{'Policy':<20} | {'Fill Rate':<10} | {'Unmet Qty':<10} | {'Shortage Days':<14} | {'Avg Stock':<10}")
-    print("--------------------------------------------------------------------------------")
-    for pol, p_data in sim_res.items():
-        print(f"{pol:<20} | {p_data['mean_fill_rate_pct']:>8.1f}% | {p_data['mean_unmet_qty']:>9.1f} | {p_data['mean_shortage_days']:>13.1f} | {p_data['mean_avg_stock_holding']:>9.1f}")
+    print("\nPAIRED SUPPLY SIMULATION (bootstrap demand from history; fixed rule matched to the forecast policy's average stock):")
+    fc_full, _, w_full = run_forecast(snap, horizon_days=30, seed=26251)
+    print_simulation(run_paired_simulation(snap, fc_full, w_full, num_seeds=20, horizon_days=30))
     print("================================================================================\n")
 
 
@@ -237,7 +256,8 @@ def run_locked_evaluation():
     snap = load_snapshot("SNAP-26251-150")
     fc_summary = evaluate_forecast_on_actuals(snap, test_actuals, horizon=30, use_croston=True)
 
-    sim_res = run_paired_simulation(snap, num_seeds=20, horizon_days=30)
+    fc_lock, _, w_lock = run_forecast(snap, horizon_days=30, seed=26251)
+    sim_res = run_paired_simulation(snap, fc_lock, w_lock, truth=test_actuals, num_seeds=20, horizon_days=30)
 
     # Run planning evaluation
     fc_run, _, site_windows = run_forecast(snap, horizon_days=30, seed=26251)
@@ -297,15 +317,197 @@ def run_locked_evaluation():
     print("--------------------------------------------------------------------------------")
     print(f"Forecast WAPE (Track 2)     : {fc_summary['track2_routed']['mean_wape']}")
     print(f"P90 Empirical Coverage       : {fc_summary['probabilistic']['p90_empirical_coverage']:.1%}")
-    print(f"Simulation Fill Rate Gain    : {sim_res['forecast_policy']['mean_fill_rate_pct']:.1f}% vs {sim_res['fixed_reorder']['mean_fill_rate_pct']:.1f}%")
-    print(f"Shortage Days Reduction      : {sim_res['forecast_policy']['mean_shortage_days']} vs {sim_res['fixed_reorder']['mean_shortage_days']}")
+    b = sim_res['bootstrap']
+    print(f"Fill rate at matched stock   : {b['forecast_policy']['fill_rate_pct']:.1f}% vs {b['fixed_matched']['fill_rate_pct']:.1f}%")
+    print(f"Shortage days at matched stk : {b['forecast_policy']['shortage_days']} vs {b['fixed_matched']['shortage_days']}")
     print(f"Verification SHA-256 Hash    : {res_hash[:16]}...")
     print("================================================================================\n")
+
+
+SIM_V2_PATH = OUT_DIR / "sim_v2.json"
+
+
+def load_truth_actuals() -> dict[tuple[str, str], np.ndarray]:
+    dates = [(datetime(2026, 5, 31) + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(30)]
+    by: dict[tuple[str, str], dict[str, float]] = {}
+    for d in json.loads(TRUTH_PATH.read_text(encoding="utf-8"))["demand"]:
+        v = d.get("requested")
+        if v is None and d.get("issued") is not None and d.get("unmet") is not None:
+            v = d["issued"] + d["unmet"]
+        if v is not None:
+            by.setdefault((d["site_id"], d["item_id"]), {})[d["date"]] = float(v)
+    return {k: np.array([s.get(dt, np.nan) for dt in dates]) for k, s in by.items()}
+
+
+def aggregate_window_coverage(all_paths, site_windows, actuals, horizon: int = 30) -> dict:
+    """Coverage of the AGGREGATE L+R window quantiles - the number replenishment targets actually use."""
+    hits = {10: 0, 50: 0, 90: 0}
+    pin, n = 0.0, 0
+    for (site, item), paths in all_paths.items():
+        act = actuals.get((site, item))
+        if act is None:
+            continue
+        w = site_windows[site]
+        for a in range(0, horizon - w + 1, w):
+            seg = act[a:a + w]
+            if np.isnan(seg).any():
+                continue
+            sums = paths[:, a:a + w].sum(axis=1)
+            y = float(seg.sum())
+            q = {p: float(np.percentile(sums, p)) for p in hits}
+            for p in hits:
+                hits[p] += y <= q[p]
+            pin += 0.9 * (y - q[90]) if y >= q[90] else 0.1 * (q[90] - y)
+            n += 1
+    return {
+        "n_windows": n, "window_days_by_site": site_windows,
+        "p10_coverage": round(hits[10] / n, 3), "p50_coverage": round(hits[50] / n, 3),
+        "p90_coverage": round(hits[90] / n, 3), "mean_pinball_0.9": round(pin / n, 2),
+        "note": "non-overlapping windows inside the 30 held-out days; small n, read with care",
+    }
+
+
+def _aligned_history(snap: Snapshot) -> dict[tuple[str, str], np.ndarray]:
+    """Date-aligned daily history; missing/censored days filled with that weekday's mean (keeps the 7-day season)."""
+    start = datetime(2026, 1, 1).date()
+    n = (datetime.fromisoformat(snap.demand_cutoff).date() - start).days + 1
+    arrs: dict[tuple[str, str], np.ndarray] = {}
+    for d in snap.demand:
+        if d.requested is None:
+            continue
+        a = arrs.setdefault((d.site_id, d.item_id), np.full(n, np.nan))
+        a[(datetime.fromisoformat(d.date).date() - start).days] = d.requested
+    for a in arrs.values():
+        overall = float(np.nanmean(a))
+        for i in np.flatnonzero(np.isnan(a)):
+            same = a[i % 7::7]
+            a[i] = float(np.nanmean(same)) if not np.isnan(same).all() else overall
+    return arrs
+
+
+def plan_violations(plan, snap, drafts, scenario) -> list[str]:
+    """Independent re-check of a plan against the scenario graph and drafts."""
+    from setu.planning.graph import apply_scenario, load_base_graph
+
+    caps = {d["edge_id"]: d["capacity_kg"] for _, _, d in apply_scenario(load_base_graph(), scenario).edges(data=True)}
+    mass = {i.item_id: i.mass_kg_per_unit for i in snap.items}
+    free = {(d.site, d.item): d.capacity_free for d in drafts}
+    alloc = {(d.site, d.item): d.allocatable for d in drafts}
+    window = {s.site_id: s.delivery_window_h for s in snap.sites}
+    bad: list[str] = []
+    flow: dict[str, float] = {}
+    into: dict = {}
+    out_of: dict = {}
+    for a in plan.allocations:
+        if a.arrival_h > window[a.dest] + 1e-6:
+            bad.append(f"window {a.path_ref}")
+        into[(a.dest, a.item)] = into.get((a.dest, a.item), 0) + a.qty
+        out_of[(a.source, a.item)] = out_of.get((a.source, a.item), 0) + a.qty
+        for e in plan.path_refs[a.path_ref]:
+            flow[e] = flow.get(e, 0.0) + mass[a.item] * a.qty
+    bad += [f"edge {e}" for e, kg in flow.items() if e not in caps or kg > caps[e] + 1e-6]
+    bad += [f"storage {k}" for k, q in into.items() if q > free[k]]
+    bad += [f"donor {k}" for k, q in out_of.items() if q > alloc[k]]
+    bad += [f"receives and donates {k}" for k in set(into) & set(out_of)]
+    return bad
+
+
+def run_addendum_evaluation():
+    """Corrected simulation + aggregate coverage + planner-vs-baseline. Written ONCE to out/sim_v2.json.
+
+    Supersedes only the `paired_simulation` section of out/metrics.json (see out/ERRATA.md); the locked file itself
+    is not modified. Uses the frozen forecast code and the held-out truth for evaluation only - nothing is tuned.
+    """
+    import platform
+    import subprocess
+    import time
+
+    import networkx
+    import scipy
+
+    from setu.api.track2 import get_scenario_by_id
+
+    if SIM_V2_PATH.exists():
+        print(f"[ADDENDUM] {SIM_V2_PATH} already exists. Refusing to overwrite.")
+        sys.exit(0)
+
+    snap = load_snapshot("SNAP-26251-150")
+    actuals = load_truth_actuals()
+    fc, paths, windows = run_forecast(snap, horizon_days=30, seed=26251)
+    sim = run_paired_simulation(snap, fc, windows, truth=actuals, num_seeds=20, horizon_days=30)
+    coverage = aggregate_window_coverage(paths, windows, actuals)
+
+    # Baselines on date-aligned history (the locked table dropped NaN days, shifting the weekly season).
+    hist = _aligned_history(snap)
+    fair = {"seasonal_naive": {"mae": [], "wape": []}, "ewma_alpha_0.2": {"mae": [], "wape": []}}
+    for key, act in actuals.items():
+        if key not in hist:
+            continue
+        for name, pred in (("seasonal_naive", seasonal_naive(hist[key], horizon=30, season=7)),
+                           ("ewma_alpha_0.2", ewma(hist[key], horizon=30, alpha=0.2))):
+            fair[name]["mae"].append(mae(act, pred))
+            w = wape(act, pred)
+            if w is not None:
+                fair[name]["wape"].append(w)
+    fair = {k: {"mean_mae": round(float(np.mean(v["mae"])), 2), "mean_wape": round(float(np.mean(v["wape"])), 3)}
+            for k, v in fair.items()}
+
+    drafts = project_stock_and_drafts(snap, fc, windows)
+    planner = {}
+    for sid in ("base", "closed_edge", "reduced_capacity", "delayed_arrival", "impossible_demand"):
+        sc = get_scenario_by_id(sid)
+        t0 = time.perf_counter()
+        plan = solve_planning_run(snap, fc, drafts, sc)
+        secs = time.perf_counter() - t0
+        w = plan.objective_components.weights
+
+        def total(oc):
+            return w["shortage"] * oc.shortage + w["transport"] * oc.transport + w["expiry"] * oc.expiry
+
+        short = lambda lines: sum(u.qty for u in lines if u.reason == "supply_shortage")
+        planner[sid] = {
+            "status": plan.solver_status, "runtime_s": round(secs, 3),
+            "constraint_violations": plan_violations(plan, snap, drafts, sc),
+            "milp": {"supply_shortage_qty": short(plan.unmet), "weighted_cost": round(total(plan.objective_components), 2)},
+            "nearest_source": {"supply_shortage_qty": short(plan.baseline.unmet),
+                               "weighted_cost": round(total(plan.baseline.objective_components), 2)},
+        }
+
+    try:
+        commit = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, cwd=ROOT_DIR).stdout.strip()
+    except OSError:
+        commit = "unknown"
+    result = {
+        "benchmark_label": "synthetic_generator_seed_26251",
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+        "supersedes": {"file": "out/metrics.json", "section": "paired_simulation", "see": "out/ERRATA.md"},
+        "build": {"git_commit": commit, "dataset_fingerprint": fc.dataset_fingerprint, "python": platform.python_version(),
+                  "numpy": np.__version__, "scipy": scipy.__version__, "networkx": networkx.__version__},
+        "paired_simulation": sim,
+        "aggregate_window_coverage": coverage,
+        "forecast_baselines_date_aligned": fair,
+        "planner_vs_nearest_source": planner,
+    }
+    body = json.dumps(result, sort_keys=True, indent=2)
+    result["verification_hash"] = hashlib.sha256(body.encode("utf-8")).hexdigest()
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    with open(SIM_V2_PATH, "x", encoding="utf-8") as fh:  # "x": atomic refuse-to-overwrite
+        fh.write(json.dumps(result, indent=2))
+    print(f"Wrote {SIM_V2_PATH}")
+    print_simulation(sim)
+    print("Aggregate-window coverage:", coverage)
+    print("Date-aligned baselines:", fair)
+    for sid, p in planner.items():
+        print(f"{sid:<18} {p['status']:<8} {p['runtime_s']:>6.2f}s violations={len(p['constraint_violations'])} "
+              f"MILP short/cost {p['milp']['supply_shortage_qty']}/{p['milp']['weighted_cost']} "
+              f"nearest {p['nearest_source']['supply_shortage_qty']}/{p['nearest_source']['weighted_cost']}")
 
 
 def main():
     if "--locked" in sys.argv:
         run_locked_evaluation()
+    elif "--addendum" in sys.argv:
+        run_addendum_evaluation()
     else:
         run_dev_evaluation()
 
