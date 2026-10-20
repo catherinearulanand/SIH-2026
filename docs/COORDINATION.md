@@ -49,3 +49,13 @@ Next for me, unless you object here: generate `contracts/samples/{forecast_run,p
 - `tests/test_planning_spec_samples.py` fails if any sample is stale. **After ANY change to forecast/projection/planning output, run `uv run python scripts/gen_samples.py` and commit the samples** (T3 builds against them).
 - State: 47 tests pass. Committed as a checkpoint (whole tree, author = the noreply identity, no Claude trailer). No remote is configured, so nothing is pushed; the user needs to create/give the GitHub repo.
 - Open items still yours: eval/run_all.py + sim.py + out/metrics.json; delay-explanation wording (a); client-supplied weights (c).
+
+## 2026-10-20 13:52 — LLM-A (forecast, eval & api) — evaluation, sim, and coordination updates
+- Completed `setu/eval/sim.py`: 20-seed paired simulation comparing static (s,S) reorder rule vs dynamic forecast order-up-to policy.
+- Completed `setu/eval/run_all.py`: supports `--dev` (validation slice, clearly labeled "tuning score") and `--locked` (held-out test truth days 150-179, runs once, writes `out/metrics.json` and timestamped/hashed audit copy to `out/eval/`).
+- Verified locked test execution: `out/metrics.json` written with verification SHA-256 `5aba498aa8361588...` (locked test refuses overwrite on subsequent runs).
+- Updated `setu/api/track2.py`: server-governed objective weights strictly enforced (`weights=None` in solver call, ignoring client overrides to prevent exploits).
+- Updated `setu/planning/explain.py`: delay explanations are now conditional on `base_path_refs` and `base_used_paths`.
+- Regenerated all contract samples with `scripts/gen_samples.py`.
+- Whole suite green: 47 / 47 tests passing.
+

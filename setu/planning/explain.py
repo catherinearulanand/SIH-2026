@@ -43,9 +43,21 @@ def explain_plan_diff(
     # Delays
     if scenario.delay_h:
         for eid, delay in scenario.delay_h.items():
-            explanations.append(
-                f"[Hypothetical - Scenario: {scenario.label}] Transit delay on edge {eid} (+{delay:.1f}h) caused paths using it to exceed delivery window."
-            )
+            affected = []
+            if base_path_refs:
+                affected = [
+                    r for r, edges in base_path_refs.items()
+                    if eid in edges and (base_used_paths is None or r in base_used_paths)
+                ]
+            if affected:
+                explanations.append(
+                    f"[Hypothetical - Scenario: {scenario.label}] Transit delay on edge {eid} (+{delay:.1f}h) caused paths using it to exceed delivery window."
+                )
+            else:
+                explanations.append(
+                    f"[Hypothetical - Scenario: {scenario.label}] Transit delay of +{delay:.1f}h applied on edge {eid}."
+                )
+
 
     # Capacity reductions
     if scenario.capacity_factor:

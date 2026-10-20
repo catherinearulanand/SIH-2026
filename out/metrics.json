@@ -1,0 +1,81 @@
+{
+  "benchmark_label": "synthetic_generator_seed_26251",
+  "timestamp_utc": "2026-10-20T08:18:01.895200+00:00",
+  "evaluation_window": {
+    "days": 30,
+    "start_date": "2026-05-31",
+    "end_date": "2026-06-29"
+  },
+  "forecast_metrics": {
+    "track2_routed": {
+      "mean_mae": 5.94,
+      "mean_bias": 0.3,
+      "mean_wape": 0.739
+    },
+    "seasonal_naive": {
+      "mean_mae": 6.35,
+      "mean_bias": -0.26,
+      "mean_wape": 0.753
+    },
+    "ewma_alpha_0.2": {
+      "mean_mae": 6.02,
+      "mean_bias": 0.11,
+      "mean_wape": 0.757
+    },
+    "probabilistic": {
+      "p10_empirical_coverage": 0.348,
+      "p50_empirical_coverage": 0.582,
+      "p90_empirical_coverage": 0.89,
+      "mean_pinball_loss_0.9": 1.5
+    }
+  },
+  "paired_simulation": {
+    "fixed_reorder": {
+      "mean_fill_rate_pct": 80.62,
+      "mean_unmet_qty": 1935.6,
+      "mean_shortage_days": 180.9,
+      "mean_avg_stock_holding": 27.1,
+      "mean_expiry_waste": 0.0
+    },
+    "forecast_policy": {
+      "mean_fill_rate_pct": 96.05,
+      "mean_unmet_qty": 394.9,
+      "mean_shortage_days": 48.5,
+      "mean_avg_stock_holding": 42.8,
+      "mean_expiry_waste": 0.0
+    }
+  },
+  "planner_scenarios": {
+    "base": {
+      "status": "OPTIMAL",
+      "allocations_count": 4,
+      "unmet_count": 1,
+      "objective": {
+        "shortage": 50.0,
+        "transport": 2137.75,
+        "expiry": 58.35,
+        "weights": {
+          "shortage": 10000.0,
+          "transport": 1.0,
+          "expiry": 10.0
+        }
+      }
+    },
+    "closed_edge": {
+      "status": "OPTIMAL",
+      "allocations_count": 4,
+      "unmet_count": 1,
+      "explanation_highlights": [
+        "[Hypothetical - Scenario: Pass Closure on Edge E-A-J1] Disruption analysis under scenario 'closed_edge'.",
+        "[Hypothetical - Scenario: Pass Closure on Edge E-A-J1] Previous path PATH-NODE-B-NODE-A:1 used closed edge E-A-J1; rerouting required.",
+        "[Constraint] Binding bottleneck constraint: donor_avail_FICTIONAL-B_RATION-PACK."
+      ]
+    },
+    "impossible_demand": {
+      "status": "OPTIMAL",
+      "unmet_count": 14,
+      "total_unmet_qty": 15934
+    }
+  },
+  "verification_hash": "5aba498aa8361588c53cfdfd16145c789e74281a2194f5402682b3c08093eddc"
+}

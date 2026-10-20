@@ -187,15 +187,16 @@ def create_planning_run(
     # 4. Scenario check
     scenario = get_scenario_by_id(req.scenario_id)
 
-    # 5. Solve MILP with server-configured 5.0s time limit
+    # 5. Solve MILP with server-configured 5.0s time limit and server-governed objective weights
     plan = solve_planning_run(
         snapshot=snapshot,
         forecast_run=forecast_run,
         drafts=drafts,
         scenario=scenario,
-        weights=req.weights,
+        weights=None,  # Server config strictly governs weights (client override prevented)
         time_limit_sec=5.0,
     )
+
 
     put_plan(plan.plan_id, plan)
     return plan
