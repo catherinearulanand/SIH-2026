@@ -1,0 +1,47 @@
+[
+  {
+    "scenario_id": "base",
+    "label": "Nominal Baseline Network",
+    "hypothetical": true,
+    "closed_edges": [],
+    "capacity_factor": {},
+    "delay_h": {},
+    "demand_factor": {}
+  },
+  {
+    "scenario_id": "closed_edge",
+    "label": "Pass Closure on Edge E-A-J1",
+    "hypothetical": true,
+    "closed_edges": ["E-A-J1"],
+    "capacity_factor": {},
+    "delay_h": {},
+    "demand_factor": {}
+  },
+  {
+    "scenario_id": "reduced_capacity",
+    "label": "Bridge Load Restrictions on Edge E-J1-J2",
+    "hypothetical": true,
+    "closed_edges": [],
+    "capacity_factor": { "E-J1-J2": 0.3 },
+    "delay_h": {},
+    "demand_factor": {}
+  },
+  {
+    "scenario_id": "delayed_arrival",
+    "label": "Severe Transit Delay on Northern Corridors",
+    "hypothetical": true,
+    "closed_edges": [],
+    "capacity_factor": {},
+    "delay_h": { "E-J1-B": 18.0, "E-B-D": 18.0 },
+    "demand_factor": {}
+  },
+  {
+    "scenario_id": "impossible_demand",
+    "label": "Catastrophic Demand Surge (10x)",
+    "hypothetical": true,
+    "closed_edges": [],
+    "capacity_factor": {},
+    "delay_h": {},
+    "demand_factor": { "RATION-PACK": 10.0, "WATER-20L": 10.0 }
+  }
+]

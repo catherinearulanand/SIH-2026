@@ -1,0 +1,597 @@
+{
+  "plan_id": "plan-5610b4492f44",
+  "snapshot_id": "SNAP-26251-150",
+  "forecast_run_id": "fc-7c0c43f99285",
+  "graph_version": "setu_supply_graph_v1",
+  "scenario_id": "impossible_demand",
+  "scenario_label": "Catastrophic Demand Surge (10x)",
+  "constraints_version": "milp_highs_v1.0.0",
+  "allocations": [],
+  "path_refs": {},
+  "unmet": [
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-A",
+      "qty": 2411,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-A",
+      "qty": 359,
+      "reason": "supply_shortage"
+    },
+    {
+      "item": "WATER-20L",
+      "dest": "FICTIONAL-A",
+      "qty": 1893,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-B",
+      "qty": 2071,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-B",
+      "qty": 171,
+      "reason": "supply_shortage"
+    },
+    {
+      "item": "WATER-20L",
+      "dest": "FICTIONAL-B",
+      "qty": 1602,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-C",
+      "qty": 1533,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-C",
+      "qty": 271,
+      "reason": "supply_shortage"
+    },
+    {
+      "item": "WATER-20L",
+      "dest": "FICTIONAL-C",
+      "qty": 1215,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "WATER-20L",
+      "dest": "FICTIONAL-C",
+      "qty": 9,
+      "reason": "supply_shortage"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-D",
+      "qty": 2179,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "RATION-PACK",
+      "dest": "FICTIONAL-D",
+      "qty": 328,
+      "reason": "supply_shortage"
+    },
+    {
+      "item": "WATER-20L",
+      "dest": "FICTIONAL-D",
+      "qty": 1797,
+      "reason": "capacity_gap"
+    },
+    {
+      "item": "WATER-20L",
+      "dest": "FICTIONAL-D",
+      "qty": 105,
+      "reason": "supply_shortage"
+    }
+  ],
+  "objective_components": {
+    "shortage": 6215.0,
+    "transport": 0.0,
+    "expiry": 0.0,
+    "weights": {
+      "shortage": 10000.0,
+      "transport": 1.0,
+      "expiry": 10.0
+    }
+  },
+  "binding_constraints": [
+    "dest_storage_FICTIONAL-A_WATER-20L",
+    "dest_storage_FICTIONAL-B_WATER-20L"
+  ],
+  "solver_status": "OPTIMAL",
+  "baseline": {
+    "allocations": [],
+    "unmet": [
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-A",
+        "qty": 2411,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-A",
+        "qty": 359,
+        "reason": "supply_shortage"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-D",
+        "qty": 2179,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-D",
+        "qty": 328,
+        "reason": "supply_shortage"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-B",
+        "qty": 2071,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-B",
+        "qty": 171,
+        "reason": "supply_shortage"
+      },
+      {
+        "item": "WATER-20L",
+        "dest": "FICTIONAL-D",
+        "qty": 1797,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "WATER-20L",
+        "dest": "FICTIONAL-D",
+        "qty": 105,
+        "reason": "supply_shortage"
+      },
+      {
+        "item": "WATER-20L",
+        "dest": "FICTIONAL-A",
+        "qty": 1893,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-C",
+        "qty": 1533,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "RATION-PACK",
+        "dest": "FICTIONAL-C",
+        "qty": 271,
+        "reason": "supply_shortage"
+      },
+      {
+        "item": "WATER-20L",
+        "dest": "FICTIONAL-B",
+        "qty": 1602,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "WATER-20L",
+        "dest": "FICTIONAL-C",
+        "qty": 1215,
+        "reason": "capacity_gap"
+      },
+      {
+        "item": "WATER-20L",
+        "dest": "FICTIONAL-C",
+        "qty": 9,
+        "reason": "supply_shortage"
+      }
+    ],
+    "objective_components": {
+      "shortage": 6215.0,
+      "transport": 0.0,
+      "expiry": 0.0,
+      "weights": {
+        "shortage": 10000.0,
+        "transport": 1.0,
+        "expiry": 10.0
+      }
+    }
+  },
+  "explanation": [
+    "[Hypothetical - Scenario: Catastrophic Demand Surge (10x)] Disruption analysis under scenario 'impossible_demand'.",
+    "[Hypothetical - Scenario: Catastrophic Demand Surge (10x)] Demand surge applied: RATION-PACK: 10.0x, WATER-20L: 10.0x.",
+    "[Constraint] Binding bottleneck constraint: dest_storage_FICTIONAL-A_WATER-20L.",
+    "[Constraint] Binding bottleneck constraint: dest_storage_FICTIONAL-B_WATER-20L.",
+    "[Storage] Destination storage space limits prevented 14701 units from being received (capacity_gap).",
+    "[Shortage] Supply shortage of 1243 units due to available donor stock or transit window limits."
+  ],
+  "geojson": {
+    "type": "FeatureCollection",
+    "name": "plan_geojson_impossible_demand",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.8,
+            34.1
+          ]
+        },
+        "properties": {
+          "node_id": "NODE-A",
+          "site_id": "FICTIONAL-A",
+          "label": "Depot Alpha",
+          "type": "site"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.2,
+            34.3
+          ]
+        },
+        "properties": {
+          "node_id": "NODE-B",
+          "site_id": "FICTIONAL-B",
+          "label": "Depot Bravo",
+          "type": "site"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.0,
+            33.8
+          ]
+        },
+        "properties": {
+          "node_id": "NODE-C",
+          "site_id": "FICTIONAL-C",
+          "label": "Depot Charlie",
+          "type": "site"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.6,
+            34.0
+          ]
+        },
+        "properties": {
+          "node_id": "NODE-D",
+          "site_id": "FICTIONAL-D",
+          "label": "Depot Delta",
+          "type": "site"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.0,
+            34.15
+          ]
+        },
+        "properties": {
+          "node_id": "JUNC-1",
+          "site_id": null,
+          "label": "Junction 1 - Northern Pass",
+          "type": "junction"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.3,
+            34.05
+          ]
+        },
+        "properties": {
+          "node_id": "JUNC-2",
+          "site_id": null,
+          "label": "Junction 2 - Central Valley",
+          "type": "junction"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.3,
+            33.9
+          ]
+        },
+        "properties": {
+          "node_id": "JUNC-3",
+          "site_id": null,
+          "label": "Junction 3 - Southern Fork",
+          "type": "junction"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              74.8,
+              34.1
+            ],
+            [
+              75.0,
+              34.15
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-A-J1",
+          "from_node": "NODE-A",
+          "to_node": "JUNC-1",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 5000.0,
+          "effective_capacity_kg": 5000.0,
+          "transit_h": 6.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              74.8,
+              34.1
+            ],
+            [
+              75.0,
+              33.8
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-A-C",
+          "from_node": "NODE-A",
+          "to_node": "NODE-C",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 3000.0,
+          "effective_capacity_kg": 3000.0,
+          "transit_h": 12.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.2,
+              34.3
+            ],
+            [
+              75.0,
+              34.15
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-J1-B",
+          "from_node": "NODE-B",
+          "to_node": "JUNC-1",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 4000.0,
+          "effective_capacity_kg": 4000.0,
+          "transit_h": 8.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.2,
+              34.3
+            ],
+            [
+              75.6,
+              34.0
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-B-D",
+          "from_node": "NODE-B",
+          "to_node": "NODE-D",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 2500.0,
+          "effective_capacity_kg": 2500.0,
+          "transit_h": 14.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.2,
+              34.3
+            ],
+            [
+              75.3,
+              34.05
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-B-J2",
+          "from_node": "NODE-B",
+          "to_node": "JUNC-2",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 3500.0,
+          "effective_capacity_kg": 3500.0,
+          "transit_h": 7.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.0,
+              33.8
+            ],
+            [
+              75.3,
+              33.9
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-C-J3",
+          "from_node": "NODE-C",
+          "to_node": "JUNC-3",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 3500.0,
+          "effective_capacity_kg": 3500.0,
+          "transit_h": 7.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.6,
+              34.0
+            ],
+            [
+              75.3,
+              34.05
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-J2-D",
+          "from_node": "NODE-D",
+          "to_node": "JUNC-2",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 4000.0,
+          "effective_capacity_kg": 4000.0,
+          "transit_h": 9.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.6,
+              34.0
+            ],
+            [
+              75.3,
+              33.9
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-J3-D",
+          "from_node": "NODE-D",
+          "to_node": "JUNC-3",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 3000.0,
+          "effective_capacity_kg": 3000.0,
+          "transit_h": 10.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.0,
+              34.15
+            ],
+            [
+              75.3,
+              34.05
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-J1-J2",
+          "from_node": "JUNC-1",
+          "to_node": "JUNC-2",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 6000.0,
+          "effective_capacity_kg": 6000.0,
+          "transit_h": 5.0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              75.3,
+              34.05
+            ],
+            [
+              75.3,
+              33.9
+            ]
+          ]
+        },
+        "properties": {
+          "edge_id": "E-J2-J3",
+          "from_node": "JUNC-2",
+          "to_node": "JUNC-3",
+          "status": "nominal",
+          "binding": false,
+          "base_capacity_kg": 4500.0,
+          "effective_capacity_kg": 4500.0,
+          "transit_h": 6.0
+        }
+      }
+    ]
+  }
+}
