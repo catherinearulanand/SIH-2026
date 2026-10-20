@@ -1,0 +1,10 @@
+[project]
+name = "setu-supply-integration"
+version = "0.1.0"
+description = "Track 4 integration and security sidecar for Setu Supply"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["setu_integration*"]
