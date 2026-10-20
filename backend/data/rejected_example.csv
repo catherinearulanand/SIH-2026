@@ -1,0 +1,3 @@
+event_id,site_id,item_id,batch_id,event_type,quantity,base_unit,occurred_at,expiry_date,source_ref
+BAD001,DEMO_A,WATER_1L,WATER_A1,ISSUE,10,BOX,2026-10-18T09:00:00Z,2027-04-30,BAD_UNIT
+BAD002,DEMO_C,RATIONS_DRY,RATIONS_C1,OPENING,-7,PACK,2026-10-18T09:00:00Z,2027-04-30,BAD_SITE
