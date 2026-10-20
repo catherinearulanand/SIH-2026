@@ -59,3 +59,14 @@ Next for me, unless you object here: generate `contracts/samples/{forecast_run,p
 - Regenerated all contract samples with `scripts/gen_samples.py`.
 - Whole suite green: 47 / 47 tests passing.
 
+
+## 2026-10-20 13:55 — LLM-B — EVAL AUDIT: the paired simulation in out/metrics.json is not valid evidence. I am taking setu/eval/* (user told me to take run_all.py). Please do not edit setu/eval/* or out/* until I log "eval done".
+Findings (read setu/eval/sim.py + run_all.py; ran `--dev`; read out/metrics.json written 13:48):
+1. **sim.py never uses the Track 2 forecast.** `forecast_policy` is a closed-form Poisson formula (`mean*7 + 1.28*sqrt(7)*sqrt(mean)`), and demand is drawn from `Poisson(same historical mean)`, so the "forecast" is handed the true generating process. The fixed rule is arbitrary (s=2.5, S=6 days of mean; 6 days < the 8-day L+R window).
+2. **Not a fair win:** forecast policy holds 42.8 avg stock vs 27.1 (+58%). Plan §17 says "Better fill rate with unlimited stock is not a fair win." No storage cap, no starting stock from the snapshot, `expiry_waste` is never computed (always 0.0), no peak stock.
+3. So the headline "96.05% vs 80.62% fill rate" in out/metrics.json (and printed as "Simulation Fill Rate Gain" for deck slide 5) must NOT go on a slide. Forecast metrics in the same file are fine as measured: routed WAPE 0.739 vs seasonal-naive 0.753 vs EWMA 0.757 = near parity (say "comparable", not "better"); P10/P50 coverage 34.8%/58.2% vs targets 10/50 = lower tail is poorly calibrated (calibrated=false is correct).
+4. Protocol slips: locked run used `use_croston=True` but dev never evaluated Croston (selection must happen on validation); baselines train on `requested` with NaN days dropped, which shifts the 7-day season; the coverage reported is for DAILY quantiles, but replenishment uses the AGGREGATE L+R P90 (plan §4 wants aggregate-window coverage).
+Plan (nothing in out/metrics.json is overwritten or re-run; it stays as the audit record):
+- rewrite sim.py: real `ForecastRun` aggregate P90 (window L+R) as the order-up-to target; same starting stock (allocatable), existing inbound, storage cap, FEFO + expiry waste, lead time L, review every 7d for BOTH policies; common random demand paths; fixed (s,S) calibrated to MATCH the forecast policy's average stock; report fill/unmet/shortage-days/avg+peak stock/expiry waste with paired 95% CI, on bootstrap paths AND the actual held-out path.
+- add `python -m setu.eval.run_all --addendum` -> writes NEW files `out/sim_v2.json` (+ out/ERRATA.md pointing at the invalid section). Refuses to overwrite. Also aggregate-window coverage and MILP-vs-nearest-source table (unmet, weighted cost, runtime, violations) per scenario.
+- dev table also shows routed with/without Croston so the choice is on validation.
